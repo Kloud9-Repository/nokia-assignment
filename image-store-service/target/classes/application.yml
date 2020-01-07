@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: image-storage
+  h2:
+    console:
+      enabled: true
+  application:
+    name: IMAGE-STORE-SERVICE
+server:
+  port: 9191

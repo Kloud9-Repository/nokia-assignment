@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: image-storage
+  application:
+    name: USER-SERVICE
